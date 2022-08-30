@@ -1,8 +1,4 @@
-from ast import Str
-from re import T
 from PIL import Image
-import os
-from os import walk, makedirs, mkdir
 from tensorflow.keras.utils import img_to_array
 
 SHOULD_SAVE = True
@@ -19,7 +15,7 @@ def saveImage(pil_image,prefix_name):
     print("image: {} saved".format(prefix_name))
 
 
-def resizeImageMantainAspect(image_path: Str ,width: int, height: int, background_color: tuple):
+def resizeImageMantainAspect(image_path: str ,width: int, height: int, background_color: tuple):
     '''Takes a file path , a new width , a new height and a tuple compose of integers (int, int, int) values that represents RGB values , creates a new image with the new width and height but maintains the aspect ratio of the original images pased on the file path , its uses pads of the color on the tuple, returns img_to_array(new images) '''
     image = Image.open(image_path)
     image.thumbnail((width, height), Image.LANCZOS)
