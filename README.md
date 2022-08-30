@@ -1,2 +1,5 @@
-# image-rezise
+# image-resize
  
+```bash
+pip install -r requirements.txt
+```
