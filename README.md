@@ -1,10 +1,14 @@
 # image-resize
 
 in code there is constant named SHOULD_SAVE 
-```python SHOULD_SAVE = True``` 
+```python
+SHOULD_SAVE = False
+``` 
 
-but if you want to preview the image created you can change it to
-```python SHOULD_SAVE = True```
+if you want to preview the image created you can change it to
+```python
+SHOULD_SAVE = True
+```
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the dependencies.
 
