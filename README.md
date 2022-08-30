@@ -21,3 +21,5 @@ Please select an option to apply to an image
 3) Grey scale
 4) Exit
 ```
+
+after selection type a number and press enter new options will appear , repeat typing the parameters and pressing enter
